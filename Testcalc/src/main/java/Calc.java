@@ -15,11 +15,10 @@ public class Calc {
             case '/':
                 if (y==0)
                 {throw new IllegalArgumentException("Число нельзя делить на ноль");}
-                result = getDil(x,y);
+                result = getDel(x,y);
                 break;
             default:
-                System.out.println("Операция не распознана.");
-                result=calculator(x,  y, operation);
+                throw new IllegalArgumentException("Операция не распознана");
         }
         return result;
 }
@@ -40,10 +39,8 @@ public  double getMinus(double x, double y){
         result=x*y;
         return  result;
     }
-    public  double getDil(double x, double y){
+    public  double getDel(double x, double y){
         double result;
-        if (y==0)
-        {throw new IllegalArgumentException("Число нельзя делить на ноль");}
         result = x/y;
         return  result;
     }

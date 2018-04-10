@@ -16,8 +16,8 @@
       <file leaf-file-name="Program.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="714">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,8 @@
       <file leaf-file-name="Calc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -34,10 +34,18 @@
       <file leaf-file-name="CalcTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="136">
+              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2203#2204#0" expanded="true" />
+                <element signature="e#2278#2279#0" expanded="true" />
+                <element signature="e#2323#2324#0" expanded="true" />
+                <element signature="e#2399#2400#0" expanded="true" />
+                <element signature="e#2444#2445#0" expanded="true" />
+                <element signature="e#2520#2521#0" expanded="true" />
+                <element signature="e#2934#2935#0" expanded="true" />
+                <element signature="e#2996#2997#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,9 +82,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,6 +133,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,11 +165,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.CalcTest">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <module name="Testcalc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -182,13 +185,64 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalcTest.getSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalcTest.testGetDil1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testcalc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalcTest" />
-      <option name="METHOD_NAME" value="getSum" />
+      <option name="METHOD_NAME" value="testGetDil1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalcTest.testOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testcalc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalcTest" />
+      <option name="METHOD_NAME" value="testOperation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalcTest.testOperation5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testcalc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalcTest" />
+      <option name="METHOD_NAME" value="testOperation5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalcTest.testOperation6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testcalc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalcTest" />
+      <option name="METHOD_NAME" value="testOperation6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -238,15 +292,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Program" />
+      <item itemvalue="JUnit.CalcTest.testOperation5" />
+      <item itemvalue="JUnit.CalcTest.testOperation6" />
+      <item itemvalue="JUnit.CalcTest.testGetDil1" />
+      <item itemvalue="JUnit.CalcTest.testOperation" />
       <item itemvalue="JUnit.CalcTest" />
-      <item itemvalue="JUnit.CalcTest.getSum" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CalcTest" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="JUnit.CalcTest.getSum" />
+        <item itemvalue="JUnit.CalcTest.testOperation" />
+        <item itemvalue="JUnit.CalcTest.testGetDil1" />
+        <item itemvalue="JUnit.CalcTest.testOperation6" />
+        <item itemvalue="JUnit.CalcTest.testOperation5" />
       </list>
     </recent_temporary>
   </component>
@@ -264,40 +322,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalcTest - 2018.04.07 at 22h 00m 09s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
+    <history-entry file="CalcTest_todo - 2018.04.09 at 22h 33m 28s.xml">
+      <configuration name="CalcTest.todo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest - 2018.04.07 at 22h 00m 40s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
+    <history-entry file="CalcTest_testOperation6 - 2018.04.09 at 22h 33m 39s.xml">
+      <configuration name="CalcTest.testOperation6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest - 2018.04.07 at 22h 07m 10s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
+    <history-entry file="CalcTest_testOperation6 - 2018.04.09 at 22h 34m 13s.xml">
+      <configuration name="CalcTest.testOperation6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest - 2018.04.07 at 22h 07m 47s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
+    <history-entry file="CalcTest_testOperation6 - 2018.04.09 at 22h 36m 13s.xml">
+      <configuration name="CalcTest.testOperation6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest - 2018.04.07 at 22h 12m 12s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
+    <history-entry file="CalcTest_testOperation6 - 2018.04.09 at 22h 40m 06s.xml">
+      <configuration name="CalcTest.testOperation6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest - 2018.04.08 at 21h 07m 13s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
+    <history-entry file="CalcTest_testOperation5 - 2018.04.09 at 22h 48m 13s.xml">
+      <configuration name="CalcTest.testOperation5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest - 2018.04.08 at 21h 08m 16s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
+    <history-entry file="CalcTest_testOperation6 - 2018.04.09 at 22h 48m 55s.xml">
+      <configuration name="CalcTest.testOperation6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest - 2018.04.08 at 21h 08m 42s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
+    <history-entry file="CalcTest_testGetDil1 - 2018.04.10 at 21h 27m 29s.xml">
+      <configuration name="CalcTest.testGetDil1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest - 2018.04.08 at 21h 08m 56s.xml">
-      <configuration name="CalcTest" configurationId="JUnit" />
+    <history-entry file="CalcTest_testOperation - 2018.04.10 at 21h 28m 25s.xml">
+      <configuration name="CalcTest.testOperation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest - 2018.04.08 at 21h 09m 07s.xml">
+    <history-entry file="CalcTest - 2018.04.10 at 21h 31m 39s.xml">
       <configuration name="CalcTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -307,8 +364,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -317,8 +374,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -330,7 +387,76 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CalcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" column="61" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2203#2204#0" expanded="true" />
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
+            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="e#2520#2521#0" expanded="true" />
+            <element signature="e#2934#2935#0" expanded="true" />
+            <element signature="e#2996#2997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CalcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2203#2204#0" expanded="true" />
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
+            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="e#2520#2521#0" expanded="true" />
+            <element signature="e#2934#2935#0" expanded="true" />
+            <element signature="e#2996#2997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -351,6 +477,14 @@
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2203#2204#0" expanded="true" />
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
+            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="e#2520#2521#0" expanded="true" />
+            <element signature="e#2934#2935#0" expanded="true" />
+            <element signature="e#2996#2997#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -439,26 +573,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Windows/Temp/Rar$DIa1916.8326/CAlculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Windows/Temp/Rar$DIa1916.17333/CAlculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Windows/Temp/Rar$DIa1916.16935/CAlculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="136">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2203#2204#0" expanded="true" />
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
+            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="e#2520#2521#0" expanded="true" />
+            <element signature="e#2934#2935#0" expanded="true" />
+            <element signature="e#2996#2997#0" expanded="true" />
           </folding>
         </state>
       </provider>
