@@ -1,0 +1,28 @@
+{
+  "uid" : "364add3c-9c4c-4394-99db-88560571b6d5",
+  "name" : "testGetSum4",
+  "title" : "Test get sum 4",
+  "time" : {
+    "start" : 1528403660729,
+    "stop" : 1528403660729,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

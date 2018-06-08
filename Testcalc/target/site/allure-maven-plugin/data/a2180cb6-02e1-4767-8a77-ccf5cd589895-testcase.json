@@ -1,0 +1,28 @@
+{
+  "uid" : "a2180cb6-02e1-4767-8a77-ccf5cd589895",
+  "name" : "testGetDil3",
+  "title" : "Test get dil 3",
+  "time" : {
+    "start" : 1528403660727,
+    "stop" : 1528403660727,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

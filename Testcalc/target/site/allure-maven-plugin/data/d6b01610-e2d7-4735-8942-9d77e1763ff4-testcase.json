@@ -1,0 +1,28 @@
+{
+  "uid" : "d6b01610-e2d7-4735-8942-9d77e1763ff4",
+  "name" : "testGetUmn7",
+  "title" : "Test get umn 7",
+  "time" : {
+    "start" : 1528403660731,
+    "stop" : 1528403660733,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

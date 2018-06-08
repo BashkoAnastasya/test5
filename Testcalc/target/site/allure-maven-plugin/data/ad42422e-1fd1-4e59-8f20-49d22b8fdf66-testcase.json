@@ -1,0 +1,28 @@
+{
+  "uid" : "ad42422e-1fd1-4e59-8f20-49d22b8fdf66",
+  "name" : "testGetDil1",
+  "title" : "Test get dil 1",
+  "time" : {
+    "start" : 1528403660723,
+    "stop" : 1528403660726,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

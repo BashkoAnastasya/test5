@@ -1,0 +1,28 @@
+{
+  "uid" : "fa0c910d-544a-4fd5-a757-ccace48b2b65",
+  "name" : "testGetUmn8",
+  "title" : "Test get umn 8",
+  "time" : {
+    "start" : 1528403660734,
+    "stop" : 1528403660735,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

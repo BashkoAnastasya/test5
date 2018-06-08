@@ -1,0 +1,28 @@
+{
+  "uid" : "92f7433d-812f-44fb-bdfd-d6246658f2bf",
+  "name" : "testGetMinus9",
+  "title" : "Test get minus 9",
+  "time" : {
+    "start" : 1528403660735,
+    "stop" : 1528403660735,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

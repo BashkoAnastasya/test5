@@ -1,0 +1,28 @@
+{
+  "uid" : "96095b6a-71f7-4cbd-aa24-420b8170162a",
+  "name" : "testGetSum2",
+  "title" : "Test get sum 2",
+  "time" : {
+    "start" : 1528403660728,
+    "stop" : 1528403660728,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}
