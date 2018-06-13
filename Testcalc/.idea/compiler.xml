@@ -9,5 +9,8 @@
         <module name="Testcalc" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Testcalc" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
